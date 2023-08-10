@@ -17,6 +17,10 @@ export const Btn = styled.button`
 
     background: none;
     border:none;
+
+    @media(min-width: 1023px) {
+        padding: 3.5rem 4.5rem;
+    }
 `
 
 export const BtnLeft = styled(Btn)`
@@ -49,9 +53,13 @@ export const content = styled.div`
     height: 100%;
 `
 
-export const links = styled.ul`
+export const link = styled.ul`
     font-size: 10rem;
     font-family: Gillroy;
+
+    @media(min-width: 1023px){
+        font-size: 3rem;
+    }
 `
 
 
