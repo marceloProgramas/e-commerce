@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
-export const Wrapper = styled.div`
-    border-bottom: solid #121212 0.4rem;
+export const Wrapper = styled.nav`
+    border-bottom: solid #121212 0.2rem;
     
     display: flex;
     justify-content: space-between;
@@ -24,11 +24,11 @@ export const Btn = styled.button`
 `
 
 export const BtnLeft = styled(Btn)`
-    border-right: solid #121212 0.4rem;
+    border-right: solid #121212 0.2rem;
 `
 
 export const BtnRight = styled(Btn)`
-    border-left: solid #121212 0.4rem;
+    border-left: solid #121212 0.2rem;
 `
 
 export const list = styled.li`
@@ -54,11 +54,11 @@ export const content = styled.div`
 `
 
 export const link = styled.ul`
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: Gillroy;
 
     @media(min-width: 1023px){
-        font-size: 3rem;
+        font-size: 2rem;
     }
 `
 

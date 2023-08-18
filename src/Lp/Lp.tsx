@@ -1,8 +1,11 @@
-import * as S from './Lp'
 import NavBar from '../components/navbar/navbar.tsx'
+import Presentation from './presentation/presentation.tsx'
 
 export default function Lp(){
     return(
-        <NavBar />
+        <>
+            <NavBar />
+            <Presentation />
+        </>
     )
 }
