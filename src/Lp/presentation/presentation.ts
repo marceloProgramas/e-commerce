@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as C from '../../style/color'
 
 export const Wrapper = styled.div`
     display: flex;
@@ -105,4 +106,8 @@ export const TinyExplanation = styled.p`
         font-size: 2rem;
         max-width:30rem;
     }
+`
+
+export const Border = styled.div`
+border-bottom: solid #121212 0.2rem;
 `

@@ -3,7 +3,7 @@ import * as S from './presentation'
 
 export default function Presentation(){
     return(
-        <>
+        <S.Border>
         <S.Wrapper>
             <S.Nome>Kyiv LuxeBouquets<S.R>®</S.R></S.Nome>
             <S.Explanation>
@@ -20,6 +20,6 @@ export default function Presentation(){
             </S.TinyExplanation>
             </S.HoriExplanation>
         </S.VertiWrapper>
-        </>
+        </S.Border>
     )
 }
