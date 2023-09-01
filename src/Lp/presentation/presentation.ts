@@ -27,6 +27,10 @@ export const Nome = styled.h1`
         font-size: 9rem;
         max-width:60rem;
     }
+    @media(min-width: 1020px) {
+        font-size: 7rem;
+        max-width:60rem;
+    }
 `
 
 export const Explanation = styled.p`
@@ -42,14 +46,20 @@ export const Explanation = styled.p`
         font-size: 2.5rem;
         max-width:60rem;
     }
+    @media(min-width: 600px) {
+        font-size: 2rem;
+        max-width:60rem;
+    }
 `
 
 export const HorizontalLine = styled.hr`
     margin-top: 2rem;
-    width: 38rem;
+    width: 70%;
     color: #121212;
     background-color: #121212;
     height: 0.01rem;
+    
+    
 `
 
 export const VertiWrapper = styled(Wrapper)`
@@ -68,6 +78,7 @@ export const Img = styled.img`
     @media (min-width: 600px){
         height: 36rem;
     }
+    
 `
 
 export const VerticalLine = styled.hr`
@@ -106,8 +117,19 @@ export const TinyExplanation = styled.p`
         font-size: 2rem;
         max-width:30rem;
     }
+    @media(min-width: 1000px) {
+        font-size: 2rem;
+        max-width: 20rem;
+    }
 `
 
 export const Border = styled.div`
 border-bottom: solid #121212 0.2rem;
+width: 100%;
+@media(min-width: 1020px) {
+    width: 70%;
+}
+@media(min-width: 1420px) {
+    width: 60%;
+}
 `

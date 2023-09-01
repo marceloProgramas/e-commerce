@@ -27,9 +27,9 @@ function Product({Left}:{Left:boolean}){
 
 export default function Products(){
     return(
-        <>
+        <S.ProductsWrapper>
         <Product Left={true}/>
         <Product Left={false}/>
-        </>
+        </S.ProductsWrapper>
     )
 }
